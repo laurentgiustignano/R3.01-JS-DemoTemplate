@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Liste articles</title>
+        <link rel="stylesheet" href="css/articles.css">
+        <script src="js/articles.js" defer></script>
+    </head>
+    <body>
+        <h1>Ma liste d'articles</h1>
+        <button id="add-article">Ajouter un article</button>
+        <section id="article-list">
+            <!-- Les articles seront ajoutées ici -->
+        </section>
+
+        <template id="article-vide">
+            <article>
+                <h2 class="article-title"></h2>
+                <p class="article-text"></p>
+                <button class="article-delete">Supprimer</button>
+            </article>
+        </template>
+    </body>
+</html>

@@ -1,0 +1,56 @@
+.hover {
+    background-color: #d5c2c2;
+}
+
+body {
+    font-family: "Bookman Old Style", serif;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+p {
+    width: 60%;
+    font-size: 1em;
+}
+
+article {
+    margin: 1.2em;
+    padding: .25em;
+    border-radius: 10px;
+}
+
+section {
+    margin: 1em;
+}
+
+button {
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+}
+/*
+button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}*/
